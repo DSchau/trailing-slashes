@@ -3,5 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "trailing-slashes",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-gatsby-cloud',
+      options: {}
+    }
+  ],
 };
