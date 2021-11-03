@@ -7,6 +7,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-gatsby-cloud',
       options: {}
-    }
+    },
+    'gatsby-plugin-force-trailing-slashes'
   ],
 };
